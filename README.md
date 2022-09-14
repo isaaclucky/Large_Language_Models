@@ -18,7 +18,7 @@
 
 ## Table of Contents
 
-* [Pharmaceutical Company Sales Prediction](#Large_Language_Models)
+* [Prompt Engineering in Large Language Models](#Large_Language_Models)
 
   - [Introduction](##Introduction)
   - [Project Structure](#project-structure)
