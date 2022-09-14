@@ -13,9 +13,6 @@
 <img src="images/100t.jpg" name="">
 
 
-## Data Exploration Link
-- [Visualization link] (https://share.streamlit.io/]
-
 ## Articles
 - [Medium Article](https://medium.com/)
 
