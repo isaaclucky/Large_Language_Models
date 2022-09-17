@@ -6,6 +6,7 @@ import json
 import cohere
 from cohere.classify import Example
 from prep_data import preprocess
+from log_supp import App_Logger
 sys.path.append(os.path.abspath(os.path.join('..')))
 api_key = api_secrets.cohere_api['api_key']
 model_name = config.models['entity_finetuned']
@@ -16,9 +17,12 @@ sample = json.load(f)
 
 class extract_entities():
     def __init__(self):
+        self.logger = App_Logger(
+            "logs/entity_extraction.log").get_app_logger()
         pass
-
+        
     def prepare_prompt(self, prompt_data, data=sample):
+        self.logger.info('Starting prompt preparation')
         prompt = prompt_data['document']
         if len(data) == 0:
             return 'extract entities from the following paragraphs?\n' + prompt + '\nExtracted Features:'
@@ -33,9 +37,13 @@ class extract_entities():
         final = 'extract entities from the following paragraphs?\n' + \
             '\n--\n'.join(examples) + '\n--\n' + \
             prompt + '\nExtracted Features:'
+        self.logger.info('Finishing prompt preparation')
+        
         return final
 
     def predict(self, prompt, model='xlarge', likelihood=False):
+        self.logger.info('Starting prompt Prediction')
+        
         # initialize the Cohere Client with an API Key
         co = cohere.Client(api_key)
         # generate a prediction for a prompt
@@ -50,6 +58,7 @@ class extract_entities():
             k=0,
             p=1,
             return_likelihoods='NONE')
+        self.logger.info('Finishing prompt preparation')
 
         return prediction.generations[0].text
 
@@ -82,7 +91,11 @@ class extract_entities():
         return result
 
     def return_extracted(self,prompt):
+        self.logger.info('Starting entity extraction')
+        
         prompt_prep = self.prepare_prompt(prompt)
         result = self.predict(prompt_prep)
+        self.logger.info('Finishing entity extraction')
+        
         return self.get_feature(result)
         

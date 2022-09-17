@@ -1,0 +1,6 @@
+2022-07-18 00:23:02,308 : INFO : log_supp : Starting entity extraction
+2022-07-18 00:23:02,308 : INFO : log_supp : Starting prompt preparation
+2022-07-18 00:23:02,309 : INFO : log_supp : Finishing prompt preparation
+2022-07-18 00:23:02,309 : INFO : log_supp : Starting prompt Prediction
+2022-07-18 00:23:06,011 : INFO : log_supp : Finishing prompt preparation
+2022-07-18 00:23:06,011 : INFO : log_supp : Finishing entity extraction
