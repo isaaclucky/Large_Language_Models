@@ -1,0 +1,702 @@
+[
+    {
+        "document": "BS in Electrical Engineering or Computer Engineering, or related Engineering Degree, with 3+ years of industry experience. 3+ years of experience with PCB design with both integrated and discrete circuits, and high-speed interfaces. Experience with development and bring-up of data center or Enterprise infrastructure system equipment. Experience with analyzing and resolving system hardware issues. PREFERRED MS in electrical engineering or computer engineering. 5+ years of industry experience. Familiar with storage server architectures with HDD. Experience with end-to-end enabling, design, and deployment cycle of a product. Experience with working with thermal, mechanical, management firmware, system firmware, and software teams during product development. Experience with design and troubleshooting data buses used in server such as PCIe, SAS, SATA, I2C. Experience with industry standard EDA tools for developing PCB designs. Knowledge of using Linux for testing.",
+        "tokens": [
+            {
+                "text": "BS",
+                "start": 0,
+                "end": 2,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "DIPLOMA"
+            },
+            {
+                "text": "Electrical Engineering",
+                "start": 6,
+                "end": 28,
+                "token_start": 2,
+                "token_end": 3,
+                "entityLabel": "DIPLOMA_MAJOR"
+            },
+            {
+                "text": "Computer Engineering",
+                "start": 32,
+                "end": 52,
+                "token_start": 5,
+                "token_end": 6,
+                "entityLabel": "DIPLOMA_MAJOR"
+            },
+            {
+                "text": "Engineering",
+                "start": 65,
+                "end": 76,
+                "token_start": 10,
+                "token_end": 10,
+                "entityLabel": "DIPLOMA_MAJOR"
+            },
+            {
+                "text": "3+ years",
+                "start": 90,
+                "end": 98,
+                "token_start": 14,
+                "token_end": 16,
+                "entityLabel": "EXPERIENCE"
+            },
+            {
+                "text": "industry",
+                "start": 102,
+                "end": 110,
+                "token_start": 18,
+                "token_end": 18,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "3+ years",
+                "start": 123,
+                "end": 131,
+                "token_start": 21,
+                "token_end": 23,
+                "entityLabel": "EXPERIENCE"
+            },
+            {
+                "text": "PCB design",
+                "start": 151,
+                "end": 161,
+                "token_start": 27,
+                "token_end": 28,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "integrated",
+                "start": 172,
+                "end": 182,
+                "token_start": 31,
+                "token_end": 31,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "discrete circuits",
+                "start": 187,
+                "end": 204,
+                "token_start": 33,
+                "token_end": 34,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "MS",
+                "start": 410,
+                "end": 412,
+                "token_start": 68,
+                "token_end": 68,
+                "entityLabel": "DIPLOMA"
+            },
+            {
+                "text": "electrical engineering",
+                "start": 416,
+                "end": 438,
+                "token_start": 70,
+                "token_end": 71,
+                "entityLabel": "DIPLOMA_MAJOR"
+            },
+            {
+                "text": "computer engineering",
+                "start": 442,
+                "end": 462,
+                "token_start": 73,
+                "token_end": 74,
+                "entityLabel": "DIPLOMA_MAJOR"
+            },
+            {
+                "text": "5+ years",
+                "start": 464,
+                "end": 472,
+                "token_start": 76,
+                "token_end": 78,
+                "entityLabel": "EXPERIENCE"
+            },
+            {
+                "text": "industry experience",
+                "start": 476,
+                "end": 495,
+                "token_start": 80,
+                "token_end": 81,
+                "entityLabel": "SKILLS"
+            }
+        ],
+        "relations": [
+            {
+                "child": 2,
+                "head": 0,
+                "relationLabel": "DEGREE_IN"
+            },
+            {
+                "child": 5,
+                "head": 0,
+                "relationLabel": "DEGREE_IN"
+            },
+            {
+                "child": 10,
+                "head": 0,
+                "relationLabel": "DEGREE_IN"
+            },
+            {
+                "child": 18,
+                "head": 14,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 27,
+                "head": 21,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 31,
+                "head": 21,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 33,
+                "head": 21,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 70,
+                "head": 68,
+                "relationLabel": "DEGREE_IN"
+            },
+            {
+                "child": 73,
+                "head": 68,
+                "relationLabel": "DEGREE_IN"
+            },
+            {
+                "child": 80,
+                "head": 76,
+                "relationLabel": "EXPERIENCE_IN"
+            }
+        ]
+    },
+    {
+        "document": "BS degree in Computer Science or related field. 7+ years C++ experience, including C++11 features and principles. 5+ years experience creating software for real-time environments such as games or robotics. 2+ years experience managing software engineers. Proven track record of software development, including shipping one or more products on large code bases that span platforms and tools. Problem solving and optimization experience. Communication experience and demonstrated experience working across disciplines and teams to drive solutions. PREFERRED Hands-on experience with 3D computer vision algorithms including Calibration, SLAM, Reconstruction, Mapping, Localization, Sensor Fusion, State Estimation and Image Processing Experience with designing (products or open-source/git software) of inertial/optical sensing devices Publication in leading workshops or conferences such as CVPR, ECCV, ICCV, SIGGRAPH, ICCP, RSS, ICRA, etc.",
+        "tokens": [
+            {
+                "text": "BS",
+                "start": 0,
+                "end": 2,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "DIPLOMA"
+            },
+            {
+                "text": "Computer Science",
+                "start": 13,
+                "end": 29,
+                "token_start": 3,
+                "token_end": 4,
+                "entityLabel": "DIPLOMA_MAJOR"
+            },
+            {
+                "text": "7+ years",
+                "start": 48,
+                "end": 56,
+                "token_start": 9,
+                "token_end": 11,
+                "entityLabel": "EXPERIENCE"
+            },
+            {
+                "text": "C++",
+                "start": 57,
+                "end": 60,
+                "token_start": 12,
+                "token_end": 12,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "C++11",
+                "start": 83,
+                "end": 88,
+                "token_start": 16,
+                "token_end": 16,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "5+ years",
+                "start": 114,
+                "end": 122,
+                "token_start": 21,
+                "token_end": 23,
+                "entityLabel": "EXPERIENCE"
+            },
+            {
+                "text": "creating software for real-time environments",
+                "start": 134,
+                "end": 178,
+                "token_start": 25,
+                "token_end": 31,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "games",
+                "start": 187,
+                "end": 192,
+                "token_start": 34,
+                "token_end": 34,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "robotics",
+                "start": 196,
+                "end": 204,
+                "token_start": 36,
+                "token_end": 36,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "2+ years",
+                "start": 206,
+                "end": 214,
+                "token_start": 38,
+                "token_end": 40,
+                "entityLabel": "EXPERIENCE"
+            },
+            {
+                "text": "managing software engineers",
+                "start": 226,
+                "end": 253,
+                "token_start": 42,
+                "token_end": 44,
+                "entityLabel": "SKILLS"
+            }
+        ],
+        "relations": [
+            {
+                "child": 3,
+                "head": 0,
+                "relationLabel": "DEGREE_IN"
+            },
+            {
+                "child": 12,
+                "head": 9,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 16,
+                "head": 9,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 25,
+                "head": 21,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 34,
+                "head": 21,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 36,
+                "head": 21,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 42,
+                "head": 38,
+                "relationLabel": "EXPERIENCE_IN"
+            }
+        ]
+    },
+    {
+        "document": "Bachelor's Degree in Computing Science or a related subject Java experience Unix experience English: Fluent Preferred Tech and Prof Experience N/A EO Statement IBM is committed to creating a diverse environment and is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status. IBM is also committed to compliance with all fair employment practices regarding citizenship and immigration status. .",
+        "tokens": [
+            {
+                "text": "Bachelor",
+                "start": 0,
+                "end": 8,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "DIPLOMA"
+            },
+            {
+                "text": "Computing Science",
+                "start": 21,
+                "end": 38,
+                "token_start": 4,
+                "token_end": 5,
+                "entityLabel": "DIPLOMA_MAJOR"
+            }
+        ],
+        "relations": [
+            {
+                "child": 4,
+                "head": 0,
+                "relationLabel": "DEGREE_IN"
+            }
+        ]
+    },
+    {
+        "document": "Basic : A BS/MS in Computer Science or related field Preferred : 5+ years of programming experience writing code in Java, C++, C#, or C or other object-oriented programming language Experience developing and testing computer software and/or online services Strong coding, debugging and problem-solving skills Strong knowledge of object-oriented programming language paradigms Great communication skills to collaborate cross-group and work effectively within the team Expertise in web or mobile application development Expertise in relational databases, distributed systems and/or big data technologies Experience in developing large scale services Ability to meet Microsoft, customer and/or government security screening requirements are required for this role. These requirements include, but are not limited to the following specialized security screenings: Microsoft Cloud Background Check: This position will be required to pass the Microsoft Cloud background check upon hire/transfer and every two years thereafter.",
+        "tokens": [
+            {
+                "text": "BS/MS",
+                "start": 10,
+                "end": 15,
+                "token_start": 3,
+                "token_end": 5,
+                "entityLabel": "DIPLOMA"
+            },
+            {
+                "text": "Computer Science",
+                "start": 19,
+                "end": 35,
+                "token_start": 7,
+                "token_end": 8,
+                "entityLabel": "DIPLOMA_MAJOR"
+            },
+            {
+                "text": "5+ years",
+                "start": 65,
+                "end": 73,
+                "token_start": 14,
+                "token_end": 16,
+                "entityLabel": "EXPERIENCE"
+            },
+            {
+                "text": "programming",
+                "start": 77,
+                "end": 88,
+                "token_start": 18,
+                "token_end": 18,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "code",
+                "start": 108,
+                "end": 112,
+                "token_start": 21,
+                "token_end": 21,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "Java",
+                "start": 116,
+                "end": 120,
+                "token_start": 23,
+                "token_end": 23,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "C++",
+                "start": 122,
+                "end": 125,
+                "token_start": 25,
+                "token_end": 25,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "C#",
+                "start": 127,
+                "end": 129,
+                "token_start": 27,
+                "token_end": 28,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "C",
+                "start": 134,
+                "end": 135,
+                "token_start": 31,
+                "token_end": 31,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "object-oriented programming",
+                "start": 145,
+                "end": 172,
+                "token_start": 34,
+                "token_end": 37,
+                "entityLabel": "SKILLS"
+            }
+        ],
+        "relations": [
+            {
+                "child": 7,
+                "head": 3,
+                "relationLabel": "DEGREE_IN"
+            },
+            {
+                "child": 18,
+                "head": 14,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 21,
+                "head": 14,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 23,
+                "head": 14,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 25,
+                "head": 14,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 27,
+                "head": 14,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 31,
+                "head": 14,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 34,
+                "head": 14,
+                "relationLabel": "EXPERIENCE_IN"
+            }
+        ]
+    },
+    {
+        "document": "10+ years of software engineering work experience. Technical experience in release automation engineering, CI/CD or related roles. Experience building and leading a software organization through product design, delivery and commercialization of consumer electronics devices. Experience recruiting and managing technical teams, including performance management. BS/MS in Computer Science. Experience in leading timeline, multi-partner initiatives. Organizational communication and coordination experience. PREFERRED 5+ years of experience with hands-on technical management, release engineering, tools engineering, DevOps, or related area.",
+        "tokens": [
+            {
+                "text": "10+ years",
+                "start": 0,
+                "end": 9,
+                "token_start": 0,
+                "token_end": 2,
+                "entityLabel": "EXPERIENCE"
+            },
+            {
+                "text": "software engineering",
+                "start": 13,
+                "end": 33,
+                "token_start": 4,
+                "token_end": 5,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "5+ years",
+                "start": 515,
+                "end": 523,
+                "token_start": 77,
+                "token_end": 79,
+                "entityLabel": "EXPERIENCE"
+            },
+            {
+                "text": "technical management",
+                "start": 552,
+                "end": 572,
+                "token_start": 86,
+                "token_end": 87,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "release engineering",
+                "start": 574,
+                "end": 593,
+                "token_start": 89,
+                "token_end": 90,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "tools engineering",
+                "start": 595,
+                "end": 612,
+                "token_start": 92,
+                "token_end": 93,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "DevOps",
+                "start": 614,
+                "end": 620,
+                "token_start": 95,
+                "token_end": 95,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "BS/MS",
+                "start": 361,
+                "end": 366,
+                "token_start": 53,
+                "token_end": 55,
+                "entityLabel": "DIPLOMA"
+            },
+            {
+                "text": "Computer Science",
+                "start": 370,
+                "end": 386,
+                "token_start": 57,
+                "token_end": 58,
+                "entityLabel": "DIPLOMA_MAJOR"
+            }
+        ],
+        "relations": [
+            {
+                "child": 4,
+                "head": 0,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 86,
+                "head": 77,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 89,
+                "head": 77,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 92,
+                "head": 77,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 95,
+                "head": 77,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 57,
+                "head": 53,
+                "relationLabel": "DEGREE_IN"
+            }
+        ]
+    },
+    {
+        "document": "Bachelor's degree in Mechanical Engineering or Physical Science 3+ years track record of developing or specifying fiber optic cables and connector related products Knowledge of fiber optic component, cabling, and interconnect products, technologies, and standards Experience in statistical data analysis Experience with product life cycle management (PLM) process Experience providing solutions to problems and meeting deadlines Experience engaging stakeholders PREFERRED Advanced degree Experience using a software tool for statistical data analysis such as JMP Experience using Agile as product life-cycle management tool Data center or other mission critical development experience",
+        "tokens": [
+            {
+                "text": "Bachelor",
+                "start": 0,
+                "end": 8,
+                "token_start": 0,
+                "token_end": 0,
+                "entityLabel": "DIPLOMA"
+            },
+            {
+                "text": "Mechanical Engineering",
+                "start": 21,
+                "end": 43,
+                "token_start": 4,
+                "token_end": 5,
+                "entityLabel": "DIPLOMA_MAJOR"
+            },
+            {
+                "text": "Physical Science",
+                "start": 47,
+                "end": 63,
+                "token_start": 7,
+                "token_end": 8,
+                "entityLabel": "DIPLOMA_MAJOR"
+            },
+            {
+                "text": "3+ years",
+                "start": 64,
+                "end": 72,
+                "token_start": 9,
+                "token_end": 11,
+                "entityLabel": "EXPERIENCE"
+            },
+            {
+                "text": "developing",
+                "start": 89,
+                "end": 99,
+                "token_start": 15,
+                "token_end": 15,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "fiber optic cables",
+                "start": 114,
+                "end": 132,
+                "token_start": 18,
+                "token_end": 20,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "connector related products",
+                "start": 137,
+                "end": 163,
+                "token_start": 22,
+                "token_end": 24,
+                "entityLabel": "SKILLS"
+            }
+        ],
+        "relations": [
+            {
+                "child": 4,
+                "head": 0,
+                "relationLabel": "DEGREE_IN"
+            },
+            {
+                "child": 7,
+                "head": 0,
+                "relationLabel": "DEGREE_IN"
+            },
+            {
+                "child": 15,
+                "head": 9,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 18,
+                "head": 9,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 22,
+                "head": 9,
+                "relationLabel": "EXPERIENCE_IN"
+            }
+        ]
+    },
+    {
+        "document": "BA/BS degree 7+ years experience in brand and/or product marketing in the consumer technology sector Experience managing the marketing communications process from research and insight to execution and optimization in-market Experience driving initiatives at both a strategic and executional level Quantitative analytical experience Demonstrated experience communicating concepts Experience with consumer hardware PREFERRED MBA Experience and exposure to AR/VR/Smart Home market dynamics and realities, the competitive landscape, and technology trends across mobile apps, augmented reality, virtual reality, artificial intelligence, and more Experience launching category-redefining consumer hardware products Experience with Gaming Startup experience Passionate about technology, internet and connectivity trends Experience with traditional, mass media campaign development, like television and out of home, to drive brand awareness and customer adoption Sees ambiguity as opportunity Enjoys working closely many cross-functional teams Comfort in a fast-paced entrepreneurial environment",
+        "tokens": [
+            {
+                "text": "7+ years",
+                "start": 13,
+                "end": 21,
+                "token_start": 4,
+                "token_end": 6,
+                "entityLabel": "EXPERIENCE"
+            },
+            {
+                "text": "brand",
+                "start": 36,
+                "end": 41,
+                "token_start": 9,
+                "token_end": 9,
+                "entityLabel": "SKILLS"
+            },
+            {
+                "text": "product marketing",
+                "start": 49,
+                "end": 66,
+                "token_start": 11,
+                "token_end": 12,
+                "entityLabel": "SKILLS"
+            }
+        ],
+        "relations": [
+            {
+                "child": 9,
+                "head": 4,
+                "relationLabel": "EXPERIENCE_IN"
+            },
+            {
+                "child": 11,
+                "head": 4,
+                "relationLabel": "EXPERIENCE_IN"
+            }
+        ]
+    }
+]
