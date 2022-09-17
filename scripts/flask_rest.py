@@ -27,7 +27,17 @@ class Entity_Extraction(Resource):
             return result, 201
 
 
+class News_Scoring(Resource):
+    def get(self):
+        return {"response": "Please send data in post method"}
+
+    def post(self):
+        some_json = request.get_json()
+        return  some_json, 201
+
+
 api.add_resource(Entity_Extraction, '/jdentities')
+api.add_resource(News_Scoring, '/bnewscore')
 
 
 if __name__ == '__main__':
