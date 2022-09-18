@@ -48,16 +48,16 @@ class preprocess():
         return train_data
     def prepare_prompt(self,prompt_data):
         prompt = prompt_data['document']
-        if len(data)==0:
+        if len(self.data)==0:
             return 'extract entities from the following paragraphs?\n' + prompt + '\nExtracted Features:'
-        if type(data) == list:
-            p = preprocess(data)
-        else: p = preprocess([data])
+        if type(self.data) == list:
+            p = preprocess(self.data)
+        else: p = preprocess([self.data])
             
         
         examples=[]
-        # data = [data]
-        for i in range(len(data)):
+        # self.data = [self.data]
+        for i in range(len(self.data)):
             examples.append(p.get_final_template(i))
         final = 'extract entities from the following paragraphs?\n' + '\n--\n'.join(examples) + '\n--\n'+ prompt + '\nExtracted Features:'
         return final
