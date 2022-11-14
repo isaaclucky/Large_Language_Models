@@ -14,7 +14,7 @@
 
 
 ## Articles
-- [Medium Article](https://medium.com/)
+- [Medium Article](https://medium.com/@Yishak_Tadele/large-language-models-prompt-engineering-2c42087937a0)
 
 ## Table of Contents
 
